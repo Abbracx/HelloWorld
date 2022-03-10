@@ -1,0 +1,46 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "string",
+				"name": "_holder",
+				"type": "string"
+			}
+		],
+		"name": "HolderChanged",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "getHolder",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_holder",
+				"type": "string"
+			}
+		],
+		"name": "setHolder",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
